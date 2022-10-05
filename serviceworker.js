@@ -41,8 +41,6 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', function (event) {
-  testConnection();
-
   let request = event.request,
     url = request.url;
 
